@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hijaz Traders · Premium Laptops Karachi</title>
+    <meta name="description" content="Hijaz Traders - Trusted laptop store in Regal Market, Karachi. New and used Dell, HP, Lenovo, Acer laptops. Best prices in Karachi since 2015." />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="Page/styles/style.css" />
+    <style>
+        .text-center { text-align: center; }
+        .mt-2 { margin-top: var(--s-lg); }
+        .mt-3 { margin-top: var(--s-2xl); }
+    </style>
+</head>
+<body>
+
+    <div class="cursor-dot" id="cursorDot"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+    <div id="scrollProgress"></div>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="home.html" class="nav-brand">
+                <div class="brand-icon"><i class="fas fa-laptop"></i></div>
+                <div class="brand-text">
+                    <h1 style="margin: 5px;">Hijaz Traders</h1>
+                    <span style="margin: 5px;">First Floor · Regal Market</span>
+                </div>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="home.html" class="active">Home</a></li>
+                <li><a href="Page/products.html">Products</a></li>
+                <li><a href="Page/about.html">About</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                </button>
+                <a href="tel:+923127673765" class="phone-number">
+                    <i class="fas fa-phone"></i>
+                    <span>0312-7673765</span>
+                </a>
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+        <div class="mesh-bg"></div>
+        <div class="grid-pattern"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-eyebrow">
+                    <span class="dot"></span>
+                    First Floor · Regal Market, Karachi
+                </div>
+                <h1>
+                    Your Trusted<br />
+                    <span class="gradient-text">Laptop Store</span> in Karachi
+                </h1>
+                <p>
+                    New and used laptops from Dell, HP, Lenovo, and Acer.
+                    Premium quality at the best prices in Regal Market since 2015.
+                </p>
+                <div class="hero-actions">
+                    <a href="https://wa.me/923127673765" class="btn btn-whatsapp btn-lg">
+                        <i class="fab fa-whatsapp"></i> WhatsApp Now
+                    </a>
+                    <a href="#products" class="btn btn-outline">
+                        <i class="fas fa-arrow-down"></i> View Products
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-num">500<span>+</span></div>
+                        <div class="stat-label">Laptops Sold</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-num">5</div>
+                        <div class="stat-label">Top Brands</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-num">2015</div>
+                        <div class="stat-label">Established</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-orb">
+                    <div class="orb-icon"><i class="fas fa-laptop"></i></div>
+                </div>
+                <div class="floating-chip chip-1">
+                    <i class="fas fa-check-circle"></i> Premium Quality
+                </div>
+                <div class="floating-chip chip-2">
+                    <i class="fas fa-tag"></i> Best Prices
+                </div>
+                <div class="floating-chip chip-3">
+                    <i class="fas fa-star"></i> Trusted
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FEATURED PRODUCTS (4) ===== -->
+    <section class="featured-products" id="products">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="label">Featured Collection</span>
+                <h2>Popular <span class="highlight">Laptops</span></h2>
+                <p>Handpicked selection of our most popular models</p>
+            </div>
+            <div class="product-grid" id="featuredGrid"></div>
+            <div class="text-center mt-3">
+                <a href="Page/products.html" class="btn btn-primary btn-lg">
+                    <i class="fas fa-arrow-right"></i> View All Products
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CATEGORIES (5) ===== -->
+    <section class="categories">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="label">Shop by Category</span>
+                <h2>Find Your <span class="highlight">Perfect</span> Laptop</h2>
+                <p>Browse our curated collection based on your needs</p>
+            </div>
+            <div class="category-grid">
+                <a href="Page/products.html?filter=new" class="category-card reveal reveal-delay-1">
+                    <span class="category-icon"><i class="fas fa-star"></i></span>
+                    <h3>New Laptops</h3>
+                    <p>Latest models &amp; technology</p>
+                    <span class="category-count">8 models</span>
+                </a>
+                <a href="Page/products.html?filter=used" class="category-card reveal reveal-delay-2">
+                    <span class="category-icon"><i class="fas fa-sync-alt"></i></span>
+                    <h3>Used Laptops</h3>
+                    <p>Quality at lower prices</p>
+                    <span class="category-count">5 models</span>
+                </a>
+                <a href="Page/products.html?filter=refurbished" class="category-card reveal reveal-delay-3">
+                    <span class="category-icon"><i class="fas fa-tools"></i></span>
+                    <h3>Refurbished</h3>
+                    <p>Like-new condition</p>
+                    <span class="category-count">3 models</span>
+                </a>
+                <a href="Page/products.html" class="category-card reveal reveal-delay-4">
+                    <span class="category-icon"><i class="fas fa-graduation-cap"></i></span>
+                    <h3>Student Picks</h3>
+                    <p>Budget-friendly &amp; durable</p>
+                    <span class="category-count">6 models</span>
+                </a>
+                <a href="Page/products.html" class="category-card reveal">
+                    <span class="category-icon"><i class="fas fa-briefcase"></i></span>
+                    <h3>Business Class</h3>
+                    <p>Reliable &amp; professional</p>
+                    <span class="category-count">7 models</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== WHY CHOOSE US (5) ===== -->
+    <section class="features-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="label">Why Choose Us</span>
+                <h2>Your Trusted <span class="highlight">Laptop</span> Partner</h2>
+                <p>We've been serving Karachi since 2015 with quality and honesty</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card reveal reveal-delay-1">
+                    <span class="feature-icon"><i class="fas fa-store-alt"></i></span>
+                    <h4>Physical Store</h4>
+                    <p>Visit us at First Floor, Regal Market, Karachi</p>
+                </div>
+                <div class="feature-card reveal reveal-delay-2">
+                    <span class="feature-icon"><i class="fas fa-check-circle"></i></span>
+                    <h4>Genuine Products</h4>
+                    <p>100% authentic laptops from top brands</p>
+                </div>
+                <div class="feature-card reveal reveal-delay-3">
+                    <span class="feature-icon"><i class="fas fa-headset"></i></span>
+                    <h4>Expert Advice</h4>
+                    <p>Get the right laptop for your needs</p>
+                </div>
+                <div class="feature-card reveal reveal-delay-4">
+                    <span class="feature-icon"><i class="fas fa-tag"></i></span>
+                    <h4>Best Prices</h4>
+                    <p>Competitive rates in Regal Market</p>
+                </div>
+                <div class="feature-card reveal">
+                    <span class="feature-icon"><i class="fas fa-shield-alt"></i></span>
+                    <h4>Quality Guarantee</h4>
+                    <p>Every laptop thoroughly tested before sale</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== STORE INFO ===== -->
+    <section class="store-info">
+        <div class="container">
+            <div class="store-info-grid">
+                <div>
+                    <h2>Visit Our Store</h2>
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fas fa-location-dot"></i></div>
+                        <div class="info-text">
+                            <h4>Location</h4>
+                            <p>First Floor, Regal Market, Karachi</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fas fa-clock"></i></div>
+                        <div class="info-text">
+                            <h4>Business Hours</h4>
+                            <p>Monday - Saturday: 11:00 AM - 9:00 PM<br />Sunday: Closed</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fas fa-phone"></i></div>
+                        <div class="info-text">
+                            <h4>Contact</h4>
+                            <p>0312-7673765</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fab fa-whatsapp"></i></div>
+                        <div class="info-text">
+                            <h4>WhatsApp</h4>
+                            <p>0312-7673765</p>
+                        </div>
+                    </div>
+                    <a href="https://wa.me/923127673765" class="btn btn-whatsapp btn-lg mt-2">
+                        <i class="fab fa-whatsapp"></i> Contact on WhatsApp
+                    </a>
+                </div>
+                <div class="store-map">
+                    <div class="map-placeholder">
+                        <i class="fas fa-map" style="font-size: 3rem; opacity: 0.3;"></i>
+                        <span style="opacity: 0.3;">Regal Market, Karachi</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3>Hijaz Traders</h3>
+                    <p>Your trusted laptop store in Regal Market, Karachi. New and used laptops from Dell, HP, Lenovo, and Acer.</p>
+                    <div class="footer-contact">
+                        <a href="tel:+923127673765"><i class="fas fa-phone"></i> 0312-7673765</a>
+                        <a href="https://wa.me/923127673765"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                    </div>
+                </div>
+                <div>
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="Page/products.html">Products</a></li>
+                        <li><a href="Page/about.html">About</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Filters</h4>
+                    <ul>
+                        <li><a href="Page/products.html?filter=new">New Laptops</a></li>
+                        <li><a href="Page/products.html?filter=used">Used Laptops</a></li>
+                        <li><a href="Page/products.html?filter=refurbished">Refurbished</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Brands</h4>
+                    <ul>
+                        <li><a href="Page/products.html">Dell</a></li>
+                        <li><a href="Page/products.html">HP</a></li>
+                        <li><a href="Page/products.html">Lenovo</a></li>
+                        <li><a href="Page/products.html">Acer</a></li>
+                        <li><a href="Page/products.html">ASUS</a></li>
+                    </ul>
+                </div>
+            </div>
+           <div class="footer-bottom">
+    <p>&copy; 2026 Hijaz Traders. All rights reserved.</p>
+    <div class="footer-credits">
+        <span>built by</span>
+        <a href="https://instagram.com/___dnd.___" target="_blank" rel="noopener">@___dnd.___</a>
+        <span class="credit-dot">·</span>
+        <a href="mailto:muhammedyassa2@gmail.com">muhammedyassa2@gmail.com</a>
+    </div>
+    <div class="social-links">
+        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://wa.me/923127673765" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+    </div>
+</div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/923127673765" class="whatsapp-float" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Quick View Modal -->
+    <div class="modal-overlay" id="quickViewModal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose"><i class="fas fa-times"></i></button>
+            <div class="modal-product-image"></div>
+            <div class="modal-product-brand"></div>
+            <h3 class="modal-product-name"></h3>
+            <div class="modal-product-price"></div>
+            <p class="modal-product-desc"></p>
+            <div class="modal-specs"></div>
+            <div class="modal-actions">
+                <a href="#" class="btn btn-whatsapp btn-lg modal-whatsapp-link">
+                    <i class="fab fa-whatsapp"></i> Inquire on WhatsApp
+                </a>
+                <a href="tel:+923127673765" class="btn btn-primary btn-lg">
+                    <i class="fas fa-phone"></i> Call Now
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="Page/scripts/script.js"></script>
+</body>
+</html>
