@@ -1,0 +1,278 @@
+[
+    {
+        "id": 0,
+        "brand": "Dell",
+        "name": "Inspiron 15 3000",
+        "status": "new",
+        "badgeClass": "badge-new",
+        "badgeText": "New",
+        "specs": [
+            { "icon": "fa-microchip", "label": "Processor", "value": "Intel Core i5-1235U" },
+            { "icon": "fa-memory", "label": "RAM", "value": "8GB DDR4" },
+            { "icon": "fa-hdd", "label": "Storage", "value": "512GB NVMe SSD" },
+            { "icon": "fa-laptop", "label": "Display", "value": "15.6\" FHD IPS" },
+            { "icon": "fa-battery-full", "label": "Battery", "value": "Up to 6 hours" },
+            { "icon": "fa-windows", "label": "OS", "value": "Windows 11 Home" }
+        ],
+        "price": "85,000",
+        "description": "The Dell Inspiron 15 3000 is a reliable everyday laptop perfect for students and professionals. Featuring a 12th Gen Intel Core i5 processor, 8GB RAM, and a fast 512GB SSD, it handles multitasking with ease. The 15.6-inch Full HD IPS display delivers crisp visuals for work and entertainment.",
+        "condition": "Brand new, sealed box with full warranty",
+        "images": [
+            "assets/images/products/dell-inspiron-15-3000.jpg"
+        ],
+        "tags": ["student", "business", "budget"]
+    },
+    {
+        "id": 1,
+        "brand": "HP",
+        "name": "Pavilion 15",
+        "status": "used",
+        "badgeClass": "badge-used",
+        "badgeText": "Used",
+        "specs": [
+            { "icon": "fa-microchip", "label": "Processor", "value": "Intel Core i7-1165G7" },
+            { "icon": "fa-memory", "label": "RAM", "value": "16GB DDR4" },
+            { "icon": "fa-hdd", "label": "Storage", "value": "1TB HDD" },
+            { "icon": "fa-laptop", "label": "Display", "value": "15.6\" FHD" },
+            { "icon": "fa-battery-full", "label": "Battery", "value": "Up to 5 hours" },
+            { "icon": "fa-windows", "label": "OS", "value": "Windows 11 Pro" }
+        ],
+        "price": "65,000",
+        "description": "The HP Pavilion 15 is a powerful used laptop with an Intel Core i7 processor and 16GB RAM, making it ideal for heavy multitasking and professional work. The 1TB HDD provides ample storage for all your files and applications. Thoroughly tested and in excellent condition.",
+        "condition": "Pre-owned, excellent condition, fully tested",
+        "images": [
+            "assets/images/products/hp-pavilion-15.jpg"
+        ],
+        "tags": ["business", "premium"]
+    },
+    {
+        "id": 2,
+        "brand": "Lenovo",
+        "name": "ThinkPad E14",
+        "status": "new",
+        "badgeClass": "badge-new",
+        "badgeText": "New",
+        "specs": [
+            { "icon": "fa-microchip", "label": "Processor", "value": "Intel Core i5-1240P" },
+            { "icon": "fa-memory", "label": "RAM", "value": "8GB DDR4" },
+            { "icon": "fa-hdd", "label": "Storage", "value": "256GB NVMe SSD" },
+            { "icon": "fa-laptop", "label": "Display", "value": "14\" FHD IPS Anti-Glare" },
+            { "icon": "fa-battery-full", "label": "Battery", "value": "Up to 8 hours" },
+            { "icon": "fa-windows", "label": "OS", "value": "Windows 11 Pro" }
+        ],
+        "price": "95,000",
+        "description": "The Lenovo ThinkPad E14 is a business-class laptop built for durability and performance. With a 12th Gen Intel Core i5 processor, spill-resistant keyboard, and MIL-STD-810H military-grade durability, it's the perfect companion for professionals on the go.",
+        "condition": "Brand new, international warranty",
+        "images": [
+            "assets/images/products/lenovo-thinkpad-e14.jpg"
+        ],
+        "tags": ["business", "premium"]
+    },
+    {
+        "id": 3,
+        "brand": "Acer",
+        "name": "Aspire 5",
+        "status": "refurbished",
+        "badgeClass": "badge-refurbished",
+        "badgeText": "Refurbished",
+        "specs": [
+            { "icon": "fa-microchip", "label": "Processor", "value": "Intel Core i3-1115G4" },
+            { "icon": "fa-memory", "label": "RAM", "value": "4GB DDR4" },
+            { "icon": "fa-hdd", "label": "Storage", "value": "1TB HDD" },
+            { "icon": "fa-laptop", "label": "Display", "value": "15.6\" FHD" },
+            { "icon": "fa-battery-full", "label": "Battery", "value": "Up to 5 hours" },
+            { "icon": "fa-windows", "label": "OS", "value": "Windows 11 Home" }
+        ],
+        "price": "45,000",
+        "description": "The Acer Aspire 5 is an affordable refurbished laptop ideal for students and basic home use. It features a reliable Intel Core i3 processor with 1TB storage, making it perfect for browsing, document work, and media consumption. Refurbished to like-new condition.",
+        "condition": "Refurbished, excellent working condition",
+        "images": [
+            "assets/images/products/acer-aspire-5.jpg"
+        ],
+        "tags": ["student", "budget"]
+    },
+    {
+        "id": 4,
+        "brand": "Dell",
+        "name": "Latitude 5400",
+        "status": "used",
+        "badgeClass": "badge-used",
+        "badgeText": "Used",
+        "specs": [
+            { "icon": "fa-microchip", "label": "Processor", "value": "Intel Core i5-8365U" },
+            { "icon": "fa-memory", "label": "RAM", "value": "16GB DDR4" },
+            { "icon": "fa-hdd", "label": "Storage", "value": "512GB NVMe SSD" },
+            { "icon": "fa-laptop", "label": "Display", "value": "14\" FHD IPS" },
+            { "icon": "fa-battery-full", "label": "Battery", "value": "Up to 7 hours" },
+            { "icon": "fa-windows", "label": "OS", "value": "Windows 11 Pro" }
+        ],
+        "price": "75,000",
+        "description": "The Dell Latitude 5400 is a premium business laptop with enterprise-grade security and manageability. Featuring 16GB RAM and a fast 512GB SSD, it's perfect for professionals who need reliability and performance. Compact 14-inch form factor for easy portability.",
+        "condition": "Pre-owned, excellent condition, fully tested",
+        "images": [
+            "assets/images/products/dell-latitude-5400.jpg"
+        ],
+        "tags": ["business", "premium"]
+    },
+    {
+        "id": 5,
+        "brand": "HP",
+        "name": "ProBook 450",
+        "status": "new",
+        "badgeClass": "badge-new",
+        "badgeText": "New",
+        "specs": [
+            { "icon": "fa-microchip", "label": "Processor", "value": "Intel Core i7-1355U" },
+            { "icon": "fa-memory", "label": "RAM", "value": "16GB DDR5" },
+            { "icon": "fa-hdd", "label": "Storage", "value": "512GB NVMe SSD" },
+            { "icon": "fa-laptop", "label": "Display", "value": "15.6\" FHD IPS" },
+            { "icon": "fa-battery-full", "label": "Battery", "value": "Up to 10 hours" },
+            { "icon": "fa-windows", "label": "OS", "value": "Windows 11 Pro" }
+        ],
+        "price": "120,000",
+        "description": "The HP ProBook 450 is a next-generation business laptop with the latest 13th Gen Intel Core i7 processor and 16GB DDR5 RAM. Built for demanding workloads, it features enterprise security, a premium aluminum chassis, and all-day battery life.",
+        "condition": "Brand new, sealed box with 1-year warranty",
+        "images": [
+            "assets/images/products/hp-probook-450.jpg"
+        ],
+        "tags": ["business", "premium"]
+    },
+    {
+        "id": 6,
+        "brand": "Lenovo",
+        "name": "IdeaPad 3",
+        "status": "new",
+        "badgeClass": "badge-new",
+        "badgeText": "New",
+        "specs": [
+            { "icon": "fa-microchip", "label": "Processor", "value": "Intel Core i3-1215U" },
+            { "icon": "fa-memory", "label": "RAM", "value": "8GB DDR4" },
+            { "icon": "fa-hdd", "label": "Storage", "value": "256GB NVMe SSD" },
+            { "icon": "fa-laptop", "label": "Display", "value": "15.6\" FHD" },
+            { "icon": "fa-battery-full", "label": "Battery", "value": "Up to 7 hours" },
+            { "icon": "fa-windows", "label": "OS", "value": "Windows 11 Home" }
+        ],
+        "price": "60,000",
+        "description": "The Lenovo IdeaPad 3 is a budget-friendly new laptop perfect for students and home users. With a 12th Gen Intel Core i3 processor, 8GB RAM, and 256GB SSD, it delivers smooth performance for everyday tasks. Clean, minimalist design with narrow bezels.",
+        "condition": "Brand new, sealed box with warranty",
+        "images": [
+            "assets/images/products/lenovo-ideapad-3.jpg"
+        ],
+        "tags": ["student", "budget"]
+    },
+    {
+        "id": 7,
+        "brand": "Acer",
+        "name": "Swift 3",
+        "status": "used",
+        "badgeClass": "badge-used",
+        "badgeText": "Used",
+        "specs": [
+            { "icon": "fa-microchip", "label": "Processor", "value": "Intel Core i5-1135G7" },
+            { "icon": "fa-memory", "label": "RAM", "value": "8GB DDR4" },
+            { "icon": "fa-hdd", "label": "Storage", "value": "256GB NVMe SSD" },
+            { "icon": "fa-laptop", "label": "Display", "value": "14\" FHD IPS" },
+            { "icon": "fa-battery-full", "label": "Battery", "value": "Up to 12 hours" },
+            { "icon": "fa-windows", "label": "OS", "value": "Windows 11 Home" }
+        ],
+        "price": "55,000",
+        "description": "The Acer Swift 3 is an ultralight laptop weighing just 1.2kg with stunning 12-hour battery life. Featuring a magnesium-aluminum chassis, fingerprint reader, and vibrant 14-inch IPS display. Perfect for students and professionals on the go.",
+        "condition": "Pre-owned, excellent condition",
+        "images": [
+            "assets/images/products/acer-swift-3.jpg"
+        ],
+        "tags": ["student", "business"]
+    },
+    {
+        "id": 8,
+        "brand": "Dell",
+        "name": "XPS 13",
+        "status": "new",
+        "badgeClass": "badge-new",
+        "badgeText": "New",
+        "specs": [
+            { "icon": "fa-microchip", "label": "Processor", "value": "Intel Core i7-1360P" },
+            { "icon": "fa-memory", "label": "RAM", "value": "16GB LPDDR5" },
+            { "icon": "fa-hdd", "label": "Storage", "value": "512GB NVMe SSD" },
+            { "icon": "fa-laptop", "label": "Display", "value": "13.4\" FHD+ InfinityEdge" },
+            { "icon": "fa-battery-full", "label": "Battery", "value": "Up to 12 hours" },
+            { "icon": "fa-windows", "label": "OS", "value": "Windows 11 Pro" }
+        ],
+        "price": "150,000",
+        "description": "The Dell XPS 13 is an iconic ultrabook with a stunning thin-bezel InfinityEdge display. Crafted from machined aluminum and carbon fiber, it features the latest 13th Gen Intel Core i7 processor, LPDDR5 RAM, and Thunderbolt 4. The gold standard for premium Windows laptops.",
+        "condition": "Brand new, premium warranty included",
+        "images": [
+            "assets/images/products/dell-xps-13.jpg"
+        ],
+        "tags": ["premium", "business"]
+    },
+    {
+        "id": 9,
+        "brand": "HP",
+        "name": "EliteBook 840 G5",
+        "status": "refurbished",
+        "badgeClass": "badge-refurbished",
+        "badgeText": "Refurbished",
+        "specs": [
+            { "icon": "fa-microchip", "label": "Processor", "value": "Intel Core i7-8650U" },
+            { "icon": "fa-memory", "label": "RAM", "value": "16GB DDR4" },
+            { "icon": "fa-hdd", "label": "Storage", "value": "512GB NVMe SSD" },
+            { "icon": "fa-laptop", "label": "Display", "value": "14\" FHD IPS Sure View" },
+            { "icon": "fa-battery-full", "label": "Battery", "value": "Up to 8 hours" },
+            { "icon": "fa-windows", "label": "OS", "value": "Windows 11 Pro" }
+        ],
+        "price": "70,000",
+        "description": "The HP EliteBook 840 G5 is a premium enterprise laptop with HP's Sure View privacy screen and robust aluminum construction. With an i7 processor, 16GB RAM, and fast SSD storage, it delivers exceptional business performance. Pre-owned but in excellent condition.",
+        "condition": "Refurbished, premium condition, fully tested",
+        "images": [
+            "assets/images/products/hp-elitebook-840.jpg"
+        ],
+        "tags": ["business", "premium"]
+    },
+    {
+        "id": 10,
+        "brand": "Lenovo",
+        "name": "Yoga Slim 7",
+        "status": "new",
+        "badgeClass": "badge-new",
+        "badgeText": "New",
+        "specs": [
+            { "icon": "fa-microchip", "label": "Processor", "value": "Intel Core i7-1360P" },
+            { "icon": "fa-memory", "label": "RAM", "value": "16GB LPDDR5" },
+            { "icon": "fa-hdd", "label": "Storage", "value": "512GB NVMe SSD" },
+            { "icon": "fa-laptop", "label": "Display", "value": "14\" 2.8K OLED Touch" },
+            { "icon": "fa-battery-full", "label": "Battery", "value": "Up to 10 hours" },
+            { "icon": "fa-windows", "label": "OS", "value": "Windows 11 Pro" }
+        ],
+        "price": "130,000",
+        "description": "The Lenovo Yoga Slim 7 is a premium 2-in-1 convertible with a stunning 2.8K OLED touch display. Featuring the latest Intel Core i7, 16GB LPDDR5 RAM, and a 360° hinge for laptop, tent, stand, or tablet modes. Dolby Atmos speakers and all-day battery.",
+        "condition": "Brand new, international warranty",
+        "images": [
+            "assets/images/products/lenovo-yoga-slim-7.jpg"
+        ],
+        "tags": ["premium", "business"]
+    },
+    {
+        "id": 11,
+        "brand": "Acer",
+        "name": "Nitro 5",
+        "status": "new",
+        "badgeClass": "badge-new",
+        "badgeText": "New",
+        "specs": [
+            { "icon": "fa-microchip", "label": "Processor", "value": "Intel Core i5-12500H" },
+            { "icon": "fa-memory", "label": "RAM", "value": "8GB DDR5" },
+            { "icon": "fa-hdd", "label": "Storage", "value": "512GB NVMe SSD" },
+            { "icon": "fa-gamepad", "label": "Graphics", "value": "NVIDIA GTX 1650 4GB" },
+            { "icon": "fa-laptop", "label": "Display", "value": "15.6\" FHD 144Hz IPS" },
+            { "icon": "fa-battery-full", "label": "Battery", "value": "Up to 5 hours" }
+        ],
+        "price": "90,000",
+        "description": "The Acer Nitro 5 is a gaming laptop that delivers excellent performance at a reasonable price. Equipped with a 12th Gen Core i5, GTX 1650 graphics, and a 144Hz display, it handles modern games and creative work smoothly. Advanced cooling system for sustained performance.",
+        "condition": "Brand new, gaming-ready",
+        "images": [
+            "assets/images/products/acer-nitro-5.jpg"
+        ],
+        "tags": ["premium", "student"]
+    }
+]
